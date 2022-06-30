@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="click show all files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\funcs.cpp" />
+    <ClCompile Include="mono\mono.cpp" />
+    <ClCompile Include="util\hook\hde64.c" />
+    <ClCompile Include="util\hook\memory_hook.cpp" />
+    <ClCompile Include="sdk\eft.cpp" />
+    <ClCompile Include="render\render.cpp" />
+    <ClCompile Include="render\image.cpp" />
+    <ClCompile Include="loader\main.cpp" />
+    <ClCompile Include="menu\imgui\imgui.cpp" />
+    <ClCompile Include="menu\imgui\imgui_draw.cpp" />
+    <ClCompile Include="menu\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="sdk\csharp\csharp.cpp" />
+    <ClCompile Include="menu\menu.cpp" />
+    <ClCompile Include="sdk\unity\unity.cpp" />
+    <ClCompile Include="menu\doodle\draw.cpp" />
+    <ClCompile Include="sdk\unity\unity_structs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mono\mono.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\funcs.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\structs\ldr.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\structs\w32\core.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\xor.hpp">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hook\hde64.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hook\memory_hook.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hook\table64.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\eft.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="render\image.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="render\stb_image.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="loader\main.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imconfig.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imgui.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imgui_impl_dx11.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imgui_impl_win32.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imgui_internal.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imstb_rectpack.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imstb_textedit.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui\imstb_truetype.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\csharp\csharp.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\game\offsets.hpp">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\instance.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\unity\unity.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\doodle\draw.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\unity\unity_structs.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\arial.ttf.h">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\lazyimporter\lazyimporter.hpp">
+      <Filter>click show all files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
